@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Surprise</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+
+        h1 {
+            color: #FF69B4;
+        }
+
+        p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>🎉 Birthday Surprise! 🎉</h1>
+    <p>Hey there! It's your special day! Do you want something special?</p>
+    <button onclick="redirectToPlaylist()">Yes, I do!</button>
+
+    <script>
+        function redirectToPlaylist() {
+            // Replace 'https://open.spotify.com/playlist/your_playlist_id' with your actual Spotify playlist link
+            var spotifyPlaylistLink = 'https://open.spotify.com/playlist/4ueOZLL2bEnWP24ZXjkOyb?si=1dKP4nXpT9K7ZMMicAYYEQ&pi=a-hKT4FwYFSOmT';
+            
+            // Open the Spotify playlist link in a new tab
+            window.open(spotifyPlaylistLink, '_blank');
+        }
+    </script>
+</body>
+</html>
